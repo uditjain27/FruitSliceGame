@@ -1,0 +1,112 @@
+
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    background: radial-gradient(circle, #fff, #ccc);
+}
+#container{
+    margin: 5.5px auto 20px auto;
+    position: relative;
+    padding: 10px;
+    color: #bbb;
+    width: 790px;
+    height: 640px;
+    background-color: #9DD2EA;
+    border-radius: 10px;
+    box-shadow: 0px 5px #009DE4;
+}
+
+#life{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    background-color: #F1FF92;
+    box-shadow: 0px 5px #7EA8BB;
+    border-radius: 5px;
+    display: none;    
+}
+
+#score{
+    position: absolute;
+    left: 700px;
+    top: 20px;
+    width: 75px;
+    height: 40px;
+    background-color: #F1FF92;
+    box-shadow: 0px 3px #9DA853;
+    padding: 5px;
+    text-align: center;
+    line-height: 27px;
+    font-size: 16px; 
+    color: #888E5F;
+}
+
+#display{
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    width: 650px;
+    height: 400px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px #535AA8;
+    overflow: hidden;
+}
+
+#text{
+    position: absolute;
+    left: 170px;
+    top: 480px;
+    width: 450px;
+    text-align: center;
+    height: 50px;
+    background-color: #B481D9;
+    box-shadow: 0px 5px #8153A8;
+    color: #000000;
+    padding: 13px;
+}
+
+#setreset{
+    width: 100px;
+    padding: 10px;
+    height: 40px;
+    position: absolute;
+    left: 345px;
+    top: 540px;
+    background-color: #CEE9F5;
+    box-shadow: 0px 5px #7EA8BB;
+    border-radius: 4px;
+    color: #000000;
+    text-align: center;
+    cursor: pointer;
+}
+
+#endgame{
+    position: absolute;
+    left: 145px;
+    top: 170px;
+    width: 500px;
+    height: 200px;
+    color: #FFFFFF;
+    background: linear-gradient(#F3C86B, #F3706C);
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    display: none;    
+}
+
+.lifecss{
+    width: 16px;
+    height: 16px;
+    margin: 0px 5px;
+}
+
+#fruit{
+    position: absolute;
+    top: -50px;    
+}
